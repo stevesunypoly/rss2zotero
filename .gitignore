@@ -1,0 +1,26 @@
+# Secrets — never commit
+.env
+
+# User config (copied from config.example.yaml)
+config.yaml
+
+# Output directory
+-f/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+
+# macOS
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
+*.swp
